@@ -15,7 +15,7 @@ public class TryCatchFinallyWithReturn {
             return i;
         } finally {
             i = 11;
-//            return i;
+            return i;
             //finally中有return的话，无论如何会把locals里面的返回值修改掉
             //所以返回的肯定是3
             //如果没有return的话，i=3只是修改了i的值，并没有修改返回值
